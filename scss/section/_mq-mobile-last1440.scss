@@ -1,0 +1,49 @@
+/* ---------------------------------------MQ------------------------------------------------------- */
+/* ------------------------------MOBILE LAST-------------------------------------------------------------------- */
+/* ------------------------PAGE SOBRE NOSOTROS-------------- */
+/* inicio mq 1440 */
+@media (max-width: 1440px) {
+    .nosotros-experiencia img {
+        width: 250px;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .nosotros-parrafo {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 100px;
+    }
+
+    .derecha1 {
+        padding-left: 0;
+    }
+
+    /* --------------------------------PAGE SEGUROS------------------------- */
+
+    .parte3 img {
+        width: 190px;
+        height: 115px;
+    }
+
+    .parte4 img {
+        width: 190px;
+        height: 115px;
+    }
+
+    /* ------------------------------------------page contacto------------ */
+    .mapa {
+        height: 400px;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+}
+
+/* fin de mq  1440px */

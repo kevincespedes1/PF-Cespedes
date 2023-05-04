@@ -1,0 +1,218 @@
+/* ---------------------------------------MQ------------------------------------------------------- */
+/* ------------------------------MOBILE LAST-------------------------------------------------------------------- */
+
+
+
+
+
+/* ---------------------MAXIMO 425 PX---------------------- */
+
+@media (max-width: 425px) {
+    .servicios-index {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .titulo-accesorios-index {
+        border-top: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .titulo-mecanica-index .titulo-mecanica {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .titulo-mecanica-index span {
+        font-size: 15px;
+    }
+
+    .titulo-accesorios-index .titulo-accesorios {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .titulo-accesorios-index span {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .titulo-reparacion-index .titulo-reparacion {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .titulo-reparacion-index span {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .ven-visitanos {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .visitanos {
+        padding-top: 20px;
+
+    }
+
+    .ven-visitanos img {
+        width: 300px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .titulo-te-ofrecemos {
+        padding: 25px;
+    }
+
+    .ubicacion p {
+        max-width: 350px;
+    }
+
+    .pesos p {
+        max-width: 350px;
+    }
+
+    .estrella p {
+        max-width: 350px;
+    }
+
+    .que-ofrecemos {
+        padding: 0;
+    }
+
+    .antes-de-footer1 {
+        flex-direction: column;
+    }
+
+    .telefono {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .telefono div {
+        margin-bottom: 10px;
+    }
+
+    .carta-simb {
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 2px solid rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .carta-simb div {
+        margin-bottom: 10px;
+    }
+
+    .hora-simb {
+        padding-top: 0px;
+    }
+
+    .hora-simb div {
+        margin-bottom: 10px;
+    }
+
+    .antes-de-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1-experiencia {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .footer1 {
+        padding: 15px;
+        max-width: 350px;
+        text-align: center;
+        border-bottom: 1px white solid;
+    }
+
+    .footer2 {
+        border-bottom: 1px white solid;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 0px;
+        max-width: 350px;
+    }
+
+    .footer3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .footer3-visitanos {
+        text-align: center;
+    }
+
+    /* ---------------------------- PAGE SOBRE NOSOTROS-------------- */
+    .arriba1 img {
+        height: 280px;
+        width: 370px;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .arriba1 {
+        padding-left: 0px;
+    }
+
+    .izquierda1 img {
+        height: 280px;
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .izquierda1 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .nosotros-parrafo {
+        max-width: 340px;
+    }
+
+    .derecha1 {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .derecha1 img {
+        height: 280px;
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .abajo1 img {
+        height: 280px;
+        width: 370px;
+
+    }
+
+    /* -----------------------PAGE SERVICIOS--------------- */
+    .que-servicios-necesitas p {
+        max-width: 380px;
+    }
+
+    .parte1 p {
+        max-width: 380px;
+    }
+
+    .parte2 p {
+        max-width: 380px;
+    }
+}

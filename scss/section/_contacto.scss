@@ -1,0 +1,52 @@
+/* --------------------------------- page contacto--------------------- */
+.titulo-contacto {
+    text-align: center;
+    padding-top: 120px;
+    text-decoration: underline #585858;
+}
+
+.maps {
+    text-align: center;
+    background-color: rgb(212, 208, 208);
+}
+
+.formulario {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+
+.form {
+    display: flex;
+    padding: 50px;
+    border: 10px rgb(61, 20, 20) dashed;
+
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    flex-direction: column;
+    padding: 50px;
+    border: 10px dotted rgb(61, 20, 20);
+}
+
+.mapa {
+    max-width: 100%;
+}
+
+.boton-envi {
+    background-color: rgb(206, 32, 38);
+    color: white;
+    font-size: 14px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}

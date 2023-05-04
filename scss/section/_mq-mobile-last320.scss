@@ -1,0 +1,106 @@
+
+/* ---------------------------------------MQ------------------------------------------------------- */
+/* ------------------------------MOBILE LAST-------------------------------------------------------------------- */
+
+
+
+
+    /* ------------------MAXIMO 320PX --------------- */
+    @media (max-width: 320px){ 
+
+        /* --------------------- PAGE INDEX----------- */
+         .ven-visitanos img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .marcas-calidad h3 {
+            max-width: 280px;
+        }
+
+        .marcas-calidad img {
+            width: 250px;
+            height: 200px;
+        } 
+
+        /* --------------------- PAGE SOBRE NOSOTROS --------------------*/
+         .arriba1 img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .izquierda1 img {
+            width: 250px;
+            height: 200px;
+            margin-left: 0px;
+        }
+
+        .izquierda1 {
+            padding-left: 30px;
+        }
+
+        .derecha1 img {
+            width: 250px;
+            height: 200px;
+            margin-left: 20px;
+        }
+
+        .abajo1 img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .nosotros-parrafo p {
+            max-width: 280px;
+        }
+
+        .nosotros-parrafo span {
+            max-width: 280px;
+        }
+
+        .abajo1 img {
+            margin-left: 0px;
+            margin-right: 0px;
+        } 
+
+        /* ---------------------- PAGE SERVICIOS -------------- */
+        h2 {
+            text-align: center;
+        }
+
+        .parte1 p {
+            max-width: 280px;
+        }
+
+        .parte2 p {
+            max-width: 280px;
+        }
+
+        .parte3 img {
+            width: 250px;
+            height: 200px;
+        }
+
+        .parte4 img {
+            width: 250px;
+            height: 200px;
+        } 
+
+        /* -------------------- PAGE CONTACTO ---------------- */
+         h1 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .info {
+            padding: 10px;
+            border: 5px dotted rgb(61, 20, 20);
+        }
+
+        .form {
+            border: 5px rgb(61, 20, 20) dashed;
+        } 
+    }

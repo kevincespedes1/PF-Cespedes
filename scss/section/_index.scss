@@ -1,0 +1,189 @@
+/* ------------------------INDEX MAIN---------------------- */
+
+.titulo-secundario {
+    background-image: url(https://static.wixstatic.com/media/8a3e6d_0b1e2bf057fa4d78a69db402aa6a7846.jpg/v1/fill/w_1903,h_889,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8a3e6d_0b1e2bf057fa4d78a69db402aa6a7846.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 280px;
+    padding-bottom: 200px;
+}
+
+.titulo-secundario h2 {
+    font-size: 60px;
+    font-weight: 850;
+}
+
+.titulo-secundario h3 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.servicios-index {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 32, 38);
+    color: white;
+    align-items: center;
+
+}
+
+.titulo-mecanica {
+    font-size: 20px;
+
+}
+
+.titulo-mecanica-index {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titulo-accesorios {
+    font-size: 20px;
+}
+
+.titulo-accesorios-index {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.titulo-reparacion {
+    font-size: 20px;
+}
+
+.titulo-reparacion-index {
+    display: flex;
+    flex-direction: column;
+}
+
+.ven-visitanos {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.ven-visitanos img {
+    width: 300px;
+    height: 250px;
+    margin: 50px;
+
+}
+
+.visitanos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.visitanos p {
+    max-width: 300px;
+}
+
+.que-ofrecemos-principal {
+    background-color: rgb(227, 227, 227);
+    ;
+}
+
+.titulo-te-ofrecemos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.titulo-te-ofrecemos h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.que-ofrecemos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.que-ofrecemos img {
+    width: 50px;
+    height: 50px;
+}
+
+.ubicacion .ubicacion-index {
+    width: 100px;
+    height: 80px;
+}
+
+.ubicacion {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ubicacion span {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ubicacion p {
+    max-width: 200px;
+    text-align: center;
+}
+
+.pesos {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pesos span {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pesos p {
+    max-width: 200px;
+    text-align: center;
+}
+
+.estrella {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estrella span {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.estrella p {
+    max-width: 200px;
+    text-align: center;
+}
+
+.marcas-calidad {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.marcas-calidad h3 {
+    font-size: 25px;
+}
+
+.marcas-calidad img {
+    padding-top: 40px;
+}

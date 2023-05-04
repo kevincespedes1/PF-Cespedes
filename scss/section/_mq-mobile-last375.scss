@@ -1,0 +1,49 @@
+
+/* ---------------------------------------MQ------------------------------------------------------- */
+/* ------------------------------MOBILE LAST-------------------------------------------------------------------- */
+
+
+/* ------------MAXIMO 375 PX ------------------ */
+@media (max-width: 375px) {
+
+    /* ---------------page sobre nosotros------------- */
+    .nosotros-experiencia h2 {
+        max-width: 370px;
+    }
+
+    .arriba1 img {
+        height: 220px;
+        width: 320px;
+    }
+
+    .izquierda1 {
+        padding-left: 20px;
+    }
+
+    .izquierda1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .derecha1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .derecha1 {
+        padding-left: 20px;
+    }
+
+    .abajo1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    /* ------------------------- PAGE SEGUROS ------------------- */
+    .titulo-seguros {
+        max-width: 360px;
+    }
+}

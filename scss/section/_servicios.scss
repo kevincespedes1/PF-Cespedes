@@ -1,0 +1,88 @@
+/* --------------------------- page servicios-------------------- */
+.que-servicios-necesitas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.que-servicios-necesitas p {
+    max-width: 800px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.servicios-completos img {
+    height: 60px;
+    width: 60px;
+}
+
+.parte1 {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+}
+
+.parte1 p {
+    max-width: 300px;
+}
+
+.martillo-llave {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.revision-simb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aceite-simb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte2 {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+
+}
+
+.parte2 p {
+    max-width: 300px;
+}
+
+.remolque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.neumaticos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bateria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactanos {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contactanos a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(206, 32, 38);
+    padding: 10px;
+}
