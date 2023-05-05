@@ -3,79 +3,77 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
-}
+    h2 {
+        text-align: center;
+        padding-bottom: 70px;
+    }
 
-.nosotros-experiencia img {
-    width: 350px;
-    height: 300px;
-    padding: 5px;
-}
+    img {
+        width: 350px;
+        height: 300px;
+        padding: 5px;
+    }
 
-.nosotros-experiencia h2 {
-    text-align: center;
-    padding-bottom: 70px;
-}
+    /*------------------------------GRID------------------ */
+    .grid-padre {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        grid-template-areas:
+            "arriba1 arriba1 arriba1 arriba1"
+            "izquierda1 medio1 medio1 derecha1"
+            "izquierda1 medio1 medio1 derecha1"
+            "abajo1 abajo1 abajo1 abajo1";
+    }
 
-.nosotros-parrafo {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-    margin-left: 230px;
-}
+    .medio1 {
+        grid-area: medio1;
+    }
 
-.nosotros-parrafo p {
-    padding-bottom: 20px;
-}
+    .nosotros-parrafo {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        margin-left: 230px;
 
-.nosotros-parrafo span {
-    padding-bottom: 20px;
-}
+        p {
+            padding-bottom: 20px;
+        }
 
-.nosotros-parrafo a {
-    background-color: rgb(206, 32, 38);
-    padding-top: 10px;
-    text-decoration: none;
-    color: black;
-    max-width: 150px;
-}
+        span {
+            padding-bottom: 20px;
+        }
 
-/*------------------------------GRID------------------ */
-.grid-padre {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    grid-template-areas:
-        "arriba1 arriba1 arriba1 arriba1"
-        "izquierda1 medio1 medio1 derecha1"
-        "izquierda1 medio1 medio1 derecha1"
-        "abajo1 abajo1 abajo1 abajo1";
-}
+        a {
+            background-color: rgb(206, 32, 38);
+            padding-top: 10px;
+            text-decoration: none;
+            color: black;
+            max-width: 150px;
+        }
+    }
 
-.medio1 {
-    grid-area: medio1;
+    .arriba1 {
+        grid-area: arriba1;
+        padding-left: 65px;
+    }
 
-}
+    .izquierda1 {
+        grid-area: izquierda1;
+        padding-left: 65px;
+    }
 
-.arriba1 {
-    grid-area: arriba1;
-    padding-left: 65px;
-}
+    .derecha1 {
+        grid-area: derecha1;
+        padding-left: 55px;
+    }
 
-.izquierda1 {
-    grid-area: izquierda1;
-    padding-left: 65px;
-}
-
-.derecha1 {
-    grid-area: derecha1;
-    padding-left: 55px;
-}
-
-.abajo1 {
-    grid-area: abajo1;
-    padding-left: 65px;
+    .abajo1 {
+        grid-area: abajo1;
+        padding-left: 65px;
+    }
 }
