@@ -74,3 +74,77 @@
         padding: 10px;
     }
 }
+/*inicio 768-------------------------*/
+
+@media (max-width: 768px) {
+    .servicios-completos img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .que-servicios-necesitas {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .que-servicios-necesitas p {
+        max-width: 580px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .servicios-completos .parte1 {
+        text-align: center;
+        padding-bottom: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicios-completos .parte1 p {
+        margin-top: 10px;
+        max-width: 580px;
+    }
+
+    .servicios-completos .parte2 {
+        text-align: center;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .servicios-completos .parte2 p {
+        margin-top: 10px;
+        max-width: 580px;
+    }
+}
+
+/* inicio 425----------------------------*/
+@media (max-width: 425px) {
+    .que-servicios-necesitas p {
+        max-width: 380px;
+    }
+
+    .servicios-completos .parte1 p {
+        max-width: 380px;
+    }
+
+    .servicios-completos .parte2 p {
+        max-width: 380px;
+    }
+}
+
+/* inicio 320 ------------------------------ */
+@media (max-width: 320px){
+    h2 {
+        text-align: center;
+    }
+
+    .servicios-completos .parte1 p {
+        max-width: 280px;
+    }
+
+    .servicios-completos .parte2 p {
+        max-width: 280px;
+    }
+
+    
+}

@@ -1,4 +1,3 @@
-/* --------------------------------- page contacto--------------------- */
 .titulo-contacto {
     text-align: center;
     padding-top: 120px;
@@ -43,3 +42,62 @@
         max-width: 100%;
     }
 }
+    /*-------------- inicio mq 1440 ---------------------------------------------------------------------------------------------------------------------------- */
+    @media (max-width: 1440px){
+        .maps .mapa {
+            height: 400px;
+            width: 80%;
+            padding-bottom: 20px;
+        }
+    }
+    
+    /* ---- FIN MQ 1440 -------------------------------------------------------------------------------------------------------------*/
+
+    /*inicio 768--------------*/
+    @media (max-width: 768px) {
+
+        h1 {
+            font-size: 30px;
+        }
+    
+        .formulario .info {
+            padding: 10px;
+            border: 10px dotted rgb(61, 20, 20);
+            margin-bottom: 80px;
+        }
+    
+        .formulario .form {
+            padding: 10px;
+        }
+    
+        .formulario {
+            flex-direction: column;
+        }
+    
+        .maps .mapa {
+            height: 400px;
+            width: 80%;
+            padding-bottom: 40px;
+        }
+    }
+
+    /* inicio 320 --------------------*/
+    @media (max-width: 320px){
+        h1 {
+           font-size: 25px;
+       }
+
+       h3 {
+           font-size: 20px;
+       }
+
+       .formulario .info {
+           padding: 10px;
+           border: 5px dotted rgb(61, 20, 20);
+           display: flex;
+       }
+
+       .formulario .form {
+           border: 5px rgb(61, 20, 20) dashed;
+       } 
+   }

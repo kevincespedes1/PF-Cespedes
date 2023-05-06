@@ -1,4 +1,3 @@
-/* -------------------------------------------- page sobre nosotros------------------------------------- */
 .nosotros-experiencia {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -76,4 +75,259 @@
         grid-area: abajo1;
         padding-left: 65px;
     }
+}
+/*--------- MEDIA MQ------------------------------------------------------------------------------*/
+/*-------------- inicio mq 1440 ---------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1440px) {
+    .nosotros-experiencia img {
+        width: 250px;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .nosotros-experiencia .nosotros-parrafo {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 100px;
+    }
+
+    .nosotros-experiencia .derecha1 {
+        padding-left: 0;
+    }
+}
+/* ---- FIN MQ 1440 -------------------------------------------------------------------------------------------------------------*/
+
+/* inicio mq 1024------------------------------------------------ */
+@media (max-width: 1024px) {
+    .nosotros-experiencia img {
+        width: 200px;
+        height: 140px;
+        padding: 1px;
+    }
+
+    .nosotros-experiencia .izquierda1 {
+        padding-left: 15px;
+    }
+
+    .nosotros-experiencia .derecha1 {
+        padding-left: 45px;
+    }
+
+    .nosotros-experiencia .nosotros-parrafo {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .nosotros-experiencia .arriba1 {
+        padding-left: 3px;
+    }
+
+    .nosotros-experiencia .abajo1 {
+        padding-left: 3px;
+    }
+}
+/* ---- FIN MQ 1024 -------------------------------------------------------------------------------------------------------------*/
+
+ /*inicio 768 -------------------------------*/
+ @media (max-width: 768px) {
+    .nosotros-experiencia .grid-padre {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nosotros-experiencia .arriba1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .nosotros-experiencia .arriba1 img {
+        margin: 6px;
+    }
+
+    .nosotros-experiencia .izquierda1 {
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    .nosotros-experiencia .izquierda1 img {
+        padding-left: 0px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .nosotros-experiencia .nosotros-parrafo {
+        padding-bottom: 30px;
+    }
+
+    .nosotros-experiencia .derecha1 {
+        padding-right: 100px;
+        padding-bottom: 20px;
+    }
+
+    .nosotros-experiencia .derecha1 img {
+        padding-left: 0px;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+
+    .nosotros-experiencia .abajo1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .nosotros-experiencia .abajo1 img {
+        margin: 6px;
+    }
+}
+/*fin 768----------------------*/
+
+/* inicio 425 --------------------------*/
+@media (max-width: 425px) {
+    .nosotros-experiencia .arriba1 img {
+        height: 280px;
+        width: 370px;
+        padding: 0;
+        margin: 5px;
+    }
+
+    .nosotros-experiencia .arriba1 {
+        padding-left: 0px;
+    }
+
+    .nosotros-experiencia .izquierda1 img {
+        height: 280px;
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .nosotros-experiencia .izquierda1 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .nosotros-experiencia .nosotros-parrafo {
+        max-width: 340px;
+    }
+
+    .nosotros-experiencia .derecha1 {
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .nosotros-experiencia .derecha1 img {
+        height: 280px;
+        width: 370px;
+        margin-left: 0px;
+    }
+
+    .nosotros-experiencia .abajo1 img {
+        height: 280px;
+        width: 370px;
+    }
+}
+
+
+
+/*inicio 375-------------------------*/
+@media (max-width: 375px) {
+
+    .nosotros-experiencia h2 {
+        max-width: 370px;
+    }
+
+    .nosotros-experiencia .arriba1 img {
+        height: 220px;
+        width: 320px;
+    }
+
+    .nosotros-experiencia .izquierda1 {
+        padding-left: 20px;
+    }
+
+    .nosotros-experiencia .izquierda1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .nosotros-experiencia .derecha1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .nosotros-experiencia .derecha1 {
+        padding-left: 20px;
+    }
+
+    .nosotros-experiencia .abajo1 img {
+        height: 220px;
+        width: 320px;
+        margin-left: 10px;
+    }
+}
+
+/*inicio 320----------------------------*/
+@media (max-width: 320px){ 
+    .nosotros-experiencia .arriba1 img {
+       width: 250px;
+       height: 200px;
+   }
+
+    .nosotros-experiencia .izquierda1 img {
+       width: 250px;
+       height: 200px;
+       margin-left: 0px;
+   }
+
+    .nosotros-experiencia .izquierda1 {
+       padding-left: 30px;
+   }
+
+    .nosotros-experiencia .derecha1 img {
+       width: 250px;
+       height: 200px;
+       margin-left: 20px;
+   }
+
+    .nosotros-experiencia .abajo1 img {
+       width: 250px;
+       height: 200px;
+   }
+
+    .nosotros-experiencia .nosotros-parrafo p {
+       max-width: 280px;
+   }
+
+    .nosotros-experiencia .nosotros-parrafo span {
+       max-width: 280px;
+   }
+
+    .nosotros-experiencia .abajo1 img {
+       margin-left: 0px;
+       margin-right: 0px;
+   } 
 }
