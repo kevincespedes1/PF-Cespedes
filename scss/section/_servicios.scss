@@ -29,20 +29,14 @@
             align-items: center;
         }
         .revision-simb {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @extend .martillo-llave;
         }
         .aceite-simb {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @extend .martillo-llave;
         }
     }
     .parte2 {
-        display: flex;
-        padding-bottom: 100px;
-        justify-content: space-evenly;
+        @extend .parte1;
         p {
             max-width: 300px;
         }
@@ -52,14 +46,10 @@
             align-items: center;
         }
         .neumaticos {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @extend .remolque;
         }
         .bateria {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @extend .remolque;
         }
     }
 }

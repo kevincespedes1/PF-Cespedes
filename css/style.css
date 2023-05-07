@@ -1,3 +1,4 @@
+/*variables-------------*/
 * {
   padding: 0;
   margin: 0;
@@ -72,7 +73,7 @@ header {
   align-items: center; }
   .antes-de-footer1 img {
     width: 20px; }
-  .antes-de-footer1 .telefono {
+  .antes-de-footer1 .telefono, .antes-de-footer1 .hora-simb {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px; }
@@ -90,10 +91,6 @@ header {
     .antes-de-footer1 .carta-simb a {
       text-decoration: none;
       color: white; }
-  .antes-de-footer1 .hora-simb {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px; }
 
 .antes-de-footer {
   background-color: #4c4c4c;
@@ -212,46 +209,37 @@ header {
   .que-ofrecemos-principal .que-ofrecemos {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    align-items: flex-end; }
     .que-ofrecemos-principal .que-ofrecemos img {
       width: 50px;
       height: 50px; }
-    .que-ofrecemos-principal .que-ofrecemos .ubicacion {
+    .que-ofrecemos-principal .que-ofrecemos .ubicacion, .que-ofrecemos-principal .que-ofrecemos .pesos, .que-ofrecemos-principal .que-ofrecemos .estrella {
       display: flex;
       max-width: 300px;
       flex-direction: column;
       align-items: center; }
-      .que-ofrecemos-principal .que-ofrecemos .ubicacion .ubicacion-index {
+      .que-ofrecemos-principal .que-ofrecemos .ubicacion .ubicacion-index, .que-ofrecemos-principal .que-ofrecemos .pesos .ubicacion-index, .que-ofrecemos-principal .que-ofrecemos .estrella .ubicacion-index {
         width: 100px;
         height: 80px; }
-      .que-ofrecemos-principal .que-ofrecemos .ubicacion span {
+      .que-ofrecemos-principal .que-ofrecemos .ubicacion span, .que-ofrecemos-principal .que-ofrecemos .pesos span, .que-ofrecemos-principal .que-ofrecemos .estrella span {
         padding-top: 20px;
         padding-bottom: 20px; }
-      .que-ofrecemos-principal .que-ofrecemos .ubicacion p {
+      .que-ofrecemos-principal .que-ofrecemos .ubicacion p, .que-ofrecemos-principal .que-ofrecemos .pesos p, .que-ofrecemos-principal .que-ofrecemos .estrella p {
         max-width: 200px;
         text-align: center; }
-    .que-ofrecemos-principal .que-ofrecemos .pesos {
-      display: flex;
-      max-width: 300px;
-      flex-direction: column;
-      align-items: center; }
-      .que-ofrecemos-principal .que-ofrecemos .pesos span {
-        padding-top: 20px;
-        padding-bottom: 20px; }
-      .que-ofrecemos-principal .que-ofrecemos .pesos p {
-        max-width: 200px;
-        text-align: center; }
-    .que-ofrecemos-principal .que-ofrecemos .estrella {
-      display: flex;
-      max-width: 300px;
-      flex-direction: column;
-      align-items: center; }
-      .que-ofrecemos-principal .que-ofrecemos .estrella span {
-        padding-top: 20px;
-        padding-bottom: 20px; }
-      .que-ofrecemos-principal .que-ofrecemos .estrella p {
-        max-width: 200px;
-        text-align: center; }
+    .que-ofrecemos-principal .que-ofrecemos .pesos span {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .que-ofrecemos-principal .que-ofrecemos .pesos p {
+      max-width: 200px;
+      text-align: center; }
+    .que-ofrecemos-principal .que-ofrecemos .estrella span {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    .que-ofrecemos-principal .que-ofrecemos .estrella p {
+      max-width: 200px;
+      text-align: center; }
 
 .marcas-calidad {
   text-align: center;
@@ -311,9 +299,9 @@ header {
     padding-bottom: 15px; }
   .que-ofrecemos-principal .titulo-te-ofrecemos p {
     font-size: 18px; }
-  .que-ofrecemos-principal .que-ofrecemos .ubicacion {
+  .que-ofrecemos-principal .que-ofrecemos .ubicacion, .que-ofrecemos-principal .que-ofrecemos .pesos, .que-ofrecemos-principal .que-ofrecemos .estrella {
     max-width: 600px; }
-  .que-ofrecemos-principal .que-ofrecemos .ubicacion p {
+  .que-ofrecemos-principal .que-ofrecemos .ubicacion p, .que-ofrecemos-principal .que-ofrecemos .pesos p, .que-ofrecemos-principal .que-ofrecemos .estrella p {
     max-width: 600px; }
   .que-ofrecemos-principal .que-ofrecemos {
     display: flex;
@@ -339,7 +327,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .antes-de-footer1 .telefono {
+  .antes-de-footer1 .telefono, .antes-de-footer1 .hora-simb {
     padding-right: 0px; }
   .antes-de-footer1 .carta-simb {
     padding-left: 20px;
@@ -402,7 +390,7 @@ header {
     font-size: 20px; }
   .que-ofrecemos-principal .titulo-te-ofrecemos p {
     font-size: 16px; }
-  .que-ofrecemos-principal .que-ofrecemos .ubicacion p {
+  .que-ofrecemos-principal .que-ofrecemos .ubicacion p, .que-ofrecemos-principal .que-ofrecemos .pesos p, .que-ofrecemos-principal .que-ofrecemos .estrella p {
     max-width: 350px; }
   .que-ofrecemos-principal .que-ofrecemos .pesos p {
     max-width: 350px; }
@@ -417,10 +405,10 @@ header {
     height: 200px; }
   .antes-de-footer1 {
     flex-direction: column; }
-  .antes-de-footer1 .telefono {
+  .antes-de-footer1 .telefono, .antes-de-footer1 .hora-simb {
     text-align: center;
     padding-bottom: 0px; }
-  .antes-de-footer1 .telefono div {
+  .antes-de-footer1 .telefono div, .antes-de-footer1 .hora-simb div {
     margin-bottom: 10px; }
   .antes-de-footer1 .carta-simb {
     border-right: 0px;
@@ -708,43 +696,24 @@ header {
   height: 60px;
   width: 60px; }
 
-.servicios-completos .parte1 {
+.servicios-completos .parte1, .servicios-completos .parte2 {
   display: flex;
   padding-bottom: 100px;
   justify-content: space-evenly; }
-  .servicios-completos .parte1 p {
+  .servicios-completos .parte1 p, .servicios-completos .parte2 p {
     max-width: 300px; }
-  .servicios-completos .parte1 .martillo-llave {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .servicios-completos .parte1 .revision-simb {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .servicios-completos .parte1 .aceite-simb {
+  .servicios-completos .parte1 .martillo-llave, .servicios-completos .parte2 .martillo-llave, .servicios-completos .parte1 .revision-simb, .servicios-completos .parte2 .revision-simb, .servicios-completos .parte1 .aceite-simb, .servicios-completos .parte2 .aceite-simb {
     display: flex;
     flex-direction: column;
     align-items: center; }
 
-.servicios-completos .parte2 {
+.servicios-completos .parte2 p {
+  max-width: 300px; }
+
+.servicios-completos .parte2 .remolque, .servicios-completos .parte2 .neumaticos, .servicios-completos .parte2 .bateria {
   display: flex;
-  padding-bottom: 100px;
-  justify-content: space-evenly; }
-  .servicios-completos .parte2 p {
-    max-width: 300px; }
-  .servicios-completos .parte2 .remolque {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .servicios-completos .parte2 .neumaticos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .servicios-completos .parte2 .bateria {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+  flex-direction: column;
+  align-items: center; }
 
 .contactanos {
   text-align: center;
@@ -767,12 +736,12 @@ header {
     max-width: 580px;
     padding-top: 20px;
     text-align: center; }
-  .servicios-completos .parte1 {
+  .servicios-completos .parte1, .servicios-completos .parte2 {
     text-align: center;
     padding-bottom: 30px;
     flex-direction: column;
     align-items: center; }
-  .servicios-completos .parte1 p {
+  .servicios-completos .parte1 p, .servicios-completos .parte2 p {
     margin-top: 10px;
     max-width: 580px; }
   .servicios-completos .parte2 {
@@ -787,7 +756,7 @@ header {
 @media (max-width: 425px) {
   .que-servicios-necesitas p {
     max-width: 380px; }
-  .servicios-completos .parte1 p {
+  .servicios-completos .parte1 p, .servicios-completos .parte2 p {
     max-width: 380px; }
   .servicios-completos .parte2 p {
     max-width: 380px; } }
@@ -796,7 +765,7 @@ header {
 @media (max-width: 320px) {
   h2 {
     text-align: center; }
-  .servicios-completos .parte1 p {
+  .servicios-completos .parte1 p, .servicios-completos .parte2 p {
     max-width: 280px; }
   .servicios-completos .parte2 p {
     max-width: 280px; } }
@@ -807,23 +776,19 @@ header {
   padding-top: 100px;
   padding-bottom: 50px; }
 
-.parte3 {
+.parte3, .parte4 {
   display: flex;
   padding-bottom: 30px;
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
 .parte4 {
-  display: flex;
-  padding-bottom: 30px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   padding-bottom: 100px; }
 
 /*-------- MEDIA MQ -------------------------------------------------------------*/
 /*-------------- inicio mq 1440 ---------------------------------------------------------------------------------------------------------------------------- */
 @media (max-width: 1440px) {
-  .parte3 img {
+  .parte3 img, .parte4 img {
     width: 190px;
     height: 115px; }
   .parte4 img {
@@ -833,7 +798,7 @@ header {
 /* ---- FIN MQ 1440 -------------------------------------------------------------------------------------------------------------*/
 /*inicio 1024----------------------*/
 @media (max-width: 1024px) {
-  .parte3 img {
+  .parte3 img, .parte4 img {
     width: 150px;
     height: 100px; }
   .parte4 img {
@@ -851,10 +816,10 @@ header {
 /*fin 1024-----------------------*/
 /*inicio 768 -------------*/
 @media (max-width: 768px) {
-  .parte3 {
+  .parte3, .parte4 {
     flex-direction: column;
     align-items: center; }
-  .parte3 img {
+  .parte3 img, .parte4 img {
     width: 350px;
     height: 200px; }
   .parte4 {
@@ -869,7 +834,7 @@ header {
 @media (max-width: 375px) {
   .titulo-seguros {
     max-width: 360px; }
-  .parte3 img {
+  .parte3 img, .parte4 img {
     width: 250px;
     height: 200px; }
   .parte4 img {
@@ -895,6 +860,14 @@ header {
     display: flex;
     padding: 50px;
     border: 10px #3d1414 dashed; }
+    .formulario .form .caja-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .formulario .form input {
+      box-shadow: inset 0 0 10px #891519; }
+    .formulario .form textarea {
+      box-shadow: inset 0 0 10px #891519; }
     .formulario .form form {
       display: flex;
       flex-direction: column;

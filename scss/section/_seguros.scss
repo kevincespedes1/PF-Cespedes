@@ -13,10 +13,7 @@
 }
 
 .parte4 {
-    display: flex;
-    padding-bottom: 30px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    @extend .parte3;
     padding-bottom: 100px;
 }
 /*-------- MEDIA MQ -------------------------------------------------------------*/
