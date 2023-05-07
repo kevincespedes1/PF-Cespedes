@@ -303,8 +303,9 @@
         padding-top: 28px;
         padding-bottom: 26px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .antes-de-footer1 {
@@ -430,8 +431,8 @@
         font-size: 20px;
     }
     .marcas-calidad img {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 180px;
     }
     .antes-de-footer1 {
         flex-direction: column;
@@ -461,6 +462,7 @@
 
     .antes-de-footer1 .hora-simb {
         padding-top: 0px;
+        padding-bottom: 20px;
     }
 
     .antes-de-footer1 .hora-simb div {

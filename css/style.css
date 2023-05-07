@@ -325,8 +325,9 @@ header {
     padding-top: 28px;
     padding-bottom: 26px;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
   .antes-de-footer1 .telefono, .antes-de-footer1 .hora-simb {
     padding-right: 0px; }
   .antes-de-footer1 .carta-simb {
@@ -401,8 +402,8 @@ header {
   .marcas-calidad h3 {
     font-size: 20px; }
   .marcas-calidad img {
-    width: 300px;
-    height: 200px; }
+    width: 200px;
+    height: 180px; }
   .antes-de-footer1 {
     flex-direction: column; }
   .antes-de-footer1 .telefono, .antes-de-footer1 .hora-simb {
@@ -420,7 +421,8 @@ header {
   .antes-de-footer1 .carta-simb div {
     margin-bottom: 10px; }
   .antes-de-footer1 .hora-simb {
-    padding-top: 0px; }
+    padding-top: 0px;
+    padding-bottom: 20px; }
   .antes-de-footer1 .hora-simb div {
     margin-bottom: 10px; }
   .antes-de-footer {
@@ -615,7 +617,7 @@ header {
     margin-left: 0px; }
   .nosotros-experiencia .izquierda1 {
     padding-right: 0px;
-    padding-left: 0px; }
+    padding-left: 30px; }
   .nosotros-experiencia .nosotros-parrafo {
     max-width: 340px; }
   .nosotros-experiencia .derecha1 {
@@ -817,29 +819,29 @@ header {
 /*inicio 768 -------------*/
 @media (max-width: 768px) {
   .parte3, .parte4 {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center; }
   .parte3 img, .parte4 img {
-    width: 350px;
-    height: 200px; }
+    width: 200px;
+    height: 170px; }
   .parte4 {
-    flex-direction: column;
     align-items: center;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    flex-direction: row; }
   .parte4 img {
-    width: 350px;
-    height: 200px; } }
+    width: 200px;
+    height: 170px; } }
 
 /* inicio 375----------------------------*/
 @media (max-width: 375px) {
   .titulo-seguros {
     max-width: 360px; }
   .parte3 img, .parte4 img {
-    width: 250px;
-    height: 200px; }
+    width: 200px;
+    height: 170px; }
   .parte4 img {
-    width: 250px;
-    height: 200px; } }
+    width: 200px;
+    height: 170px; } }
 
 .titulo-contacto {
   text-align: center;
