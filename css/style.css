@@ -25,17 +25,21 @@ header {
           font-size: 30px;
           color: #891519;
           text-align: center; }
+        header .menu-de-todos .container-fluid .titulo-arriba .titulo-principal1 {
+          color: white; }
       header .menu-de-todos .container-fluid .menu-bot {
         border: 4px black dotted;
         background-color: #891519; }
       header .menu-de-todos .container-fluid .nav-k {
         text-align: center;
         justify-content: flex-end; }
+        header .menu-de-todos .container-fluid .nav-k .link .nav-item .parado {
+          color: black; }
         header .menu-de-todos .container-fluid .nav-k ul li a {
           position: relative;
           display: block;
           margin: 5px;
-          color: black;
+          color: white;
           font-weight: 600; }
         header .menu-de-todos .container-fluid .nav-k ul li a::before {
           content: '';
@@ -707,7 +711,9 @@ header {
   .servicios-completos .parte1 .martillo-llave, .servicios-completos .parte2 .martillo-llave, .servicios-completos .parte1 .revision-simb, .servicios-completos .parte2 .revision-simb, .servicios-completos .parte1 .aceite-simb, .servicios-completos .parte2 .aceite-simb {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ce2026; }
 
 .servicios-completos .parte2 p {
   max-width: 300px; }
@@ -715,7 +721,9 @@ header {
 .servicios-completos .parte2 .remolque, .servicios-completos .parte2 .neumaticos, .servicios-completos .parte2 .bateria {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  text-align: center;
+  border: 2px solid #ce2026; }
 
 .contactanos {
   text-align: center;
@@ -857,11 +865,11 @@ header {
   .formulario .info {
     flex-direction: column;
     padding: 50px;
-    border: 10px dotted #3d1414; }
+    border: 10px outset #3d1414; }
   .formulario .form {
     display: flex;
     padding: 50px;
-    border: 10px #3d1414 dashed; }
+    border: 10px #3d1414 outset; }
     .formulario .form .caja-form {
       display: flex;
       flex-direction: column;

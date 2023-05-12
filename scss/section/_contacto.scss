@@ -14,13 +14,13 @@
     .info {
         flex-direction: column;
         padding: 50px;
-        border: 10px dotted rgb(61, 20, 20);
+        border: 10px outset rgb(61, 20, 20);
     }
 
     .form {
         display: flex;
         padding: 50px;
-        border: 10px rgb(61, 20, 20) dashed;
+        border: 10px rgb(61, 20, 20) outset;
 
         .caja-form {
             display: flex;

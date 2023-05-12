@@ -27,6 +27,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            text-align: center;
+            border: 2px solid #ce2026
         }
         .revision-simb {
             @extend .martillo-llave;
@@ -44,6 +46,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            text-align: center;
+            border: 2px solid #ce2026
         }
         .neumaticos {
             @extend .remolque;
@@ -60,7 +64,7 @@
     a {
         text-decoration: none;
         color: white;
-        background-color: rgb(206, 32, 38);
+        background-color: #ce2026;
         padding: 10px;
     }
 }

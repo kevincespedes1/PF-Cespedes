@@ -25,6 +25,9 @@ header {
                     color: $rojoopaco;
                     text-align: center;
                 }
+                .titulo-principal1{
+                    color: white;
+                }
             }
 
             .menu-bot {
@@ -35,12 +38,18 @@ header {
             .nav-k {
                 text-align: center;
                 justify-content: flex-end;
-
+                .link{
+                    .nav-item{
+                        .parado{
+                            color: black;
+                        }
+                    }
+                }
                 ul li a {
                     position: relative;
                     display: block;
                     margin: 5px;
-                    color: black;
+                    color: rgb(255, 255, 255);
                     font-weight: 600;
                 }
 
